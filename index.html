@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Development Lab</title>
+    <meta
+      name="description"
+      content="A clean starter project for a Web Development Lab with modern layout and responsive design."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <div class="brand">WT Lab</div>
+        <div class="nav-links" aria-label="Main navigation">
+          <a href="#overview">Overview</a>
+          <a href="#topics">Topics</a>
+          <a href="#practice">Practice</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Web Technologies Lab</p>
+            <h1>Build modern web experiences with clean code.</h1>
+            <p class="subtitle">
+              Explore HTML, CSS, JavaScript, and responsive design in a structured lab environment.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#overview">Start Learning</a>
+              <a class="btn btn-secondary" href="#topics">View Topics</a>
+            </div>
+            <ul class="hero-meta">
+              <li>Responsive Layout</li>
+              <li>Modern UI</li>
+              <li>Hands-on Practice</li>
+            </ul>
+          </div>
+          <div class="hero-card">
+            <div class="card-panel">
+              <span class="chip">Lab Status</span>
+              <h2>Ready to Code</h2>
+              <div class="metric-grid">
+                <div>
+                  <strong>3</strong>
+                  <span>Core Topics</span>
+                </div>
+                <div>
+                  <strong>1</strong>
+                  <span>Starter Project</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="overview" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">Overview</p>
+          <h2>What this lab includes</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>HTML</h3>
+            <p>Structure web pages with semantic elements and clear content flow.</p>
+          </article>
+          <article class="feature-card">
+            <h3>CSS</h3>
+            <p>Create responsive, visually polished layouts with modern design patterns.</p>
+          </article>
+          <article class="feature-card">
+            <h3>JavaScript</h3>
+            <p>Add interactivity and user-friendly behavior to your web pages.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="topics" class="section alt-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Topics</p>
+            <h2>Core concepts for the lab</h2>
+          </div>
+          <div class="topics-grid">
+            <div class="topic-box">
+              <h3>Semantic structure</h3>
+              <p>Use proper HTML elements for accessibility and maintainability.</p>
+            </div>
+            <div class="topic-box">
+              <h3>Responsive styling</h3>
+              <p>Build interfaces that adapt smoothly across devices and screen sizes.</p>
+            </div>
+            <div class="topic-box">
+              <h3>Interactive behavior</h3>
+              <p>Use JavaScript to respond to user actions and update page content.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="practice" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">Practice</p>
+          <h2>Quick tasks to complete</h2>
+        </div>
+        <div class="task-list" aria-live="polite">
+          <div class="task-item">
+            <input type="checkbox" id="task-1" />
+            <label for="task-1">Create a semantic page structure.</label>
+          </div>
+          <div class="task-item">
+            <input type="checkbox" id="task-2" />
+            <label for="task-2">Apply modern CSS styling and spacing.</label>
+          </div>
+          <div class="task-item">
+            <input type="checkbox" id="task-3" />
+            <label for="task-3">Add an interaction using JavaScript.</label>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Web Development Lab</p>
+        <button id="theme-toggle" class="btn btn-secondary">Toggle Theme</button>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
